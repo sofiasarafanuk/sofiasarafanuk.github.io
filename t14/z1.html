@@ -1,0 +1,117 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<title>Тема 14</title>
+		<style>
+			body{
+				padding: 0;
+				margin: 0;
+				font-family: Tahoma;
+				background: url("me.jpg");
+				background-white: 100%;
+				color: white;
+			}
+			header{
+				
+
+			}
+			nav{
+				padding: 20px;
+				border-bottom: 4px solid white;
+				
+			}
+			nav a{
+				text-decoration: none;
+				color: white;
+				margin-right: 20px;
+				font-weight: bold;
+				border-bottom: 3px solid white;
+				padding-bottom: 3px;
+				font-size: 20px;
+				transition: 2s ease;
+				
+			}
+			nav a:hover{
+				color: red;
+				font-size: 22px;
+				border-bottom: 3px solid orange;
+			}
+			main{
+				min-height: 100vh;
+				display: flex;
+				border-bottom: 5px solid white;
+			}
+			article{
+				width: 70%;
+				border-right: 5px solid white;
+			}
+			aside{
+				width: 30%;
+			}
+			#info_box{
+				display: flex;
+				padding: 30px 60px;
+			}
+			#info{
+				padding: 50px 0 0 100px;
+			}
+			footer{
+				padding:  20px;
+				display: flex;
+				justify-content: space-around;
+			}
+			#container{
+				background: rgba(0,0,0, 0.6);
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="container">
+			<header>
+				<nav>
+					<a href="z1.html">Головна</a>
+					<a href="z2.html">Галерея</a>
+				</nav>
+			</header>
+			
+			<main>
+				<article>
+					<h2 align="center">Основна інформація</h2>
+					
+					<div id="info_box">
+						<div id="photo">
+							<img src="images.jfif">
+						</div>
+						<div id="info">
+							<p>Ім'я:</p>
+							
+							<p>Інформація про мене:</p>
+							
+							<p>Вік:</p>
+							
+							<p>Е-пошта:</p>
+						</div>
+					</div>
+				</article>
+			
+				<aside>
+					<h2 align="center">Більше про мене</h2>
+					<ul>
+						<li>Моя освіта</li>
+						<li>Пройдені курси</li>
+						<li>Мої навики</li>
+						<li>Досвід роботи</li>
+					</ul>
+				</aside>
+			</main>
+			
+			<footer>
+				<p>Logo© </p>
+				<p>Всі права захищено</p>
+				<p>mynew@gmail.com</p>
+			</footer>
+		</div>
+	</body>
+	
+</html>
